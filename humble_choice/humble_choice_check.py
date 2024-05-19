@@ -2,7 +2,7 @@ from requests import get
 from calendar import month_abbr, month_name
 
 year = 2024
-month = 4
+month = 5
 
 _month_name = month_name[month]
 _month_abbr = month_abbr[month]
@@ -38,6 +38,7 @@ urls = [
     f"https://images.cordial.com/102/600x703/{_month_name}{year}_6Hero_Pause_UK.png",
     f"https://images.cordial.com/102/600x692/{_month_name}{year}_Hero_Existing.png",
     f"https://images.cordial.com/102/600x692/{_month_name}{year}_Hero.png",
+    f"https://images.cordial.com/102/600x592/{_month_name}{year}_Hero_launch.png",
 ]
 
 for url in urls:
