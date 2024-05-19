@@ -1,0 +1,28 @@
+<div class="a4layout">
+    {% for spell in spells %}
+    <!-- {{ spell.name|e }} -->
+    <div class="card">
+        <h3 class="spellname">{{ spell.name|e }}</h3>
+        <div class="castingTimeDiv">
+            <p class="castingTimeLabel">Casting Time</p>
+            <p class="castingTimeText">{{ spell.cast_time_string()|e }}</p>
+        </div>
+        <div class="rangeDiv">
+            <p class="rangeLabel">Range</p>
+            <p class="rangeText">{{ spell.range_string()|e }}</p>
+        </div>
+        <div class="componentsDiv {% if spell.html_add_components_topText() %}topText{% endif %} {% if spell.html_add_rightBorder() %}rightBorder{% endif %}">
+            <p class="componentsLbel">Components</p>
+            <p class="componentsText">{{ spell.components_string()|e }}{% if spell.has_material_components_description %}<br><span class="additionalText">{{ spell.material_components_string()|e }}</span>{% endif %}</p>
+        </div>
+        <div class="durationDiv {% if spell.html_add_duration_topText() %}topText{% endif %} {% if spell.html_add_leftBorder() %}leftBorder{% endif %}">
+            <p class="durationLabel">Duration</p>
+            <p class="durationText">{{ spell.duration_string()|e }}{% if spell.require_concentration %}<br><span class="additionalText">{{ spell.concentration_time_string()|e }}</span>{% endif %}</p>
+        </div>
+        <div class="descriptionDiv {% if spell.html_add_divshort() %}descriptionDivShort{% endif %} {% if spell.html_add_descriptionLong() %}descriptionTextLong{% endif %}">
+            <p class="descriptionText">{{ spell.formatted_description() }}</p>
+        </div>
+        <p class="spellslot">{{ spell.school_slot_string()|e }}</p>
+    </div>
+    {% endfor %}
+</div>
