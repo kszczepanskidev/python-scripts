@@ -2,7 +2,7 @@ from requests import get
 from calendar import month_abbr, month_name
 
 year = 2024
-month = 5
+month = 6
 
 _month_name = month_name[month]
 _month_abbr = month_abbr[month]
