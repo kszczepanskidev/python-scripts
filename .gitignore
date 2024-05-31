@@ -39,3 +39,4 @@ venv.bak/
 yt_download/
 geckodriver.log
 spellbook/
+spellbook_generator/data/
