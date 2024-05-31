@@ -85,10 +85,15 @@ class Spell:
             for find in findall(regex, formatted_description):
                 formatted_description = formatted_description.replace(f'{md_tag}{find}{md_tag}', f'<{html_tag}>{find}</{html_tag}>')
 
+        formatted_description = formatted_description.replace('\n', '<br>')
+
         return formatted_description
 
     def has_material_components_description(self):
         return self.material_components_string() != ''
+
+    def has_level_scaling(self):
+        return self.at_higher_levels != ''
 
     # HTML classes helpers
 
