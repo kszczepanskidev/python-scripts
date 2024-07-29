@@ -1,1 +1,262 @@
-[]
+[
+    {
+        "name": "continual flame",
+        "school": "evocation",
+        "level": 2,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "touch",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": true,
+            "description": "50gp ruby dust"
+        },
+        "duration": "until dispelled",
+        "require_concentration": false,
+        "description": "A flame, equivalent in brightness to a torch (20/20ft), springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A continual flame can be covered or hidden but not smothered or quenched.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "earthen grasp",
+        "school": "transmutation",
+        "level": 2,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "30",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "mini clay hand sculpture"
+        },
+        "duration": "1 minute",
+        "require_concentration": true,
+        "description": "Choose a 5ft square unoccupied space on the ground you see within range. A Medium hand from compacted soil rises and reaches for one creature you can see within 5 feet of it. The target must make **STR saving throw**. On a failed save they take **2d6 bludgeoning** damage and are restrained for the duration.\nAs action you can crush the restrained target, which must make a **Strength saving throw**. The target takes **2d6 bludgeoning** damage on a failed save or half on a success.\nRestrained target can use its action to make a **STR check** against your spell save DC.\nAs an action you can reach for a different creature or move the hand to a different unoccupied space within range. It releases a restrained target if you do either.",
+        "at_higher_levels": "",
+        "has_long_description": true
+    },
+    {
+        "name": "enhance ability",
+        "school": "transmutation",
+        "level": 2,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "touch",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "beast fur or feather"
+        },
+        "duration": "1 hour",
+        "require_concentration": true,
+        "description": "Target gains one effect until the spell ends:\n\n**Bear's Endurance:** Advantage on **CON** checks and **2d6 temporary hit points** until the spell ends.\n**Bull's Strength:** Advantage on **STR** checks and doubled carrying capacity.\n**Cat's Grace:** Advantage on **DEX** checks and no fall damage from 20 feet or less.\n**Eagle's Splendor:** Advantage on **CHA** checks.\n**Fox's Cunning:** Advantage on **INT** checks.\n**Owl's Wisdom:** Advantage on **WIS** checks.",
+        "at_higher_levels": "You can target one additional creature for each spell slot level above 2nd.",
+        "has_long_description": true
+    },
+    {
+        "name": "invisibility",
+        "school": "illusion",
+        "level": 2,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "touch",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "eyelash in gum arabic"
+        },
+        "duration": "1 hour",
+        "require_concentration": true,
+        "description": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.",
+        "at_higher_levels": "You can target one additional creature for each spell slot level above 2nd.",
+        "has_long_description": false
+    },
+    {
+        "name": "knock",
+        "school": "transmutation",
+        "level": 2,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "60",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": false,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "Choose a door, a box, a chest, a set of manacles, a padlock, or another object that contains a mundane or magical means that prevents access that you see within range.\nA mundane lock becomes unlocked, unstuck, or unbarred. If the object has multiple locks, only one of them is unlocked.\nArcane lock is suppressed for 10 minutes, during which time the target can be opened and shut normally.\nWhen you cast the spell a loud knock, audible from as far away as 300 feet, emanates from the target object.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "locate object",
+        "school": "divination",
+        "level": 2,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "self",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "forked twig"
+        },
+        "duration": "10 minutes",
+        "require_concentration": true,
+        "description": "Describe or name an object familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If it's in motion you know the direction of its movement.\nThe spell can locate a specific object known to you if have seen it up close (30ft) at least once. Alternatively it can locate nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.\nIt won't work if any thickness of lead blocks a direct path between you and the object.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "mirror image",
+        "school": "illusion",
+        "level": 2,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "self",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "1 minute",
+        "require_concentration": false,
+        "description": "Creates three illusory duplicates of yourself that move with you and mimic your actions making it impossible to track which image is real. Can be dismissed with an action.\nEach time you are targeted with an attack, roll **d20** to determined if it targets the duplicate.\nDepending on the number of duplicates you need to roll **6+ for 3, 8+ for 2 and 11+ for 1 duplicate**.\nDuplicate's AC equals to **10 + DEX mod** and it's destroyed when hit with an attack.\nCreatures attack cannot be redirected to duplicate if it can't see, it relies on other senses (eg. blindsight) or can see through illusions (eg. truesight).",
+        "at_higher_levels": "",
+        "has_long_description": true
+    },
+    {
+        "name": "phantasmal force",
+        "school": "illusion",
+        "level": 2,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "60",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "bit of fleece"
+        },
+        "duration": "1 minute",
+        "require_concentration": true,
+        "description": "One creature you see within range must make an **INT saving throw**. On a fail you create an illusion no larger than a 10ft cube that's perceivable only to the target for the duration. It includes sound, temperature and other stimuli. It has no effect on undead or constructs.\nTarget can use action to examine it with an **INT (Investigation)** check against your spell save DC. On success the target perceive the illusion ending the spell. Target treats the phantasm as real rationalizing any illogical outcomes from interacting with it.\nEach round it can deal **1d6 psychic** damage to the target if it is within 5 feet of the phantasm, provided that the illusion could logically deal damage. The target perceives the damage as of appropriate type.",
+        "at_higher_levels": "",
+        "has_long_description": true
+    },
+    {
+        "name": "scorching ray",
+        "school": "evocation",
+        "level": 2,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "120",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.\nMake a ranged spell attack for each ray. On a hit, the target takes **2d6 fire** damage.",
+        "at_higher_levels": "You create one additional ray for each spell slot level above 2nd.",
+        "has_long_description": false
+    },
+    {
+        "name": "see invisibility",
+        "school": "divination",
+        "level": 2,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "self",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "pinch of talc and silver"
+        },
+        "duration": "1 hour",
+        "require_concentration": false,
+        "description": "For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "spider climb",
+        "school": "transmutation",
+        "level": 2,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "touch",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "drop of bitumen, spider"
+        },
+        "duration": "1 hour",
+        "require_concentration": true,
+        "description": "Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving its hands free. The target also gains a climbing speed equal to its walking speed.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "vortex warp",
+        "school": "conjuration",
+        "level": 2,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "90",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": " You magically twist space around another creature you can see within range. The target must succeed on a **CON saving throw** (can choose to fail), or the target is teleported to an unoccupied space of your choice that you can see within range. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.",
+        "at_higher_levels": "The range of the spell increases by 30 feet for each spell slot level above 2nd.",
+        "has_long_description": false
+    },
+    {
+        "name": "web",
+        "school": "conjuration",
+        "level": 2,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "60",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "a bit of spiderweb"
+        },
+        "duration": "1 hour",
+        "require_concentration": true,
+        "description": "Conjure sticky webbing that fill a **20-foot cube** at point of choosing. Webs create difficult terrain and lightly obscure their area.\nIf not anchored between solid masses or layered across flat surface, webs collapses on itself (spell ends at the start of your turn). Layered webs have a depth of **5 feet**.\nStarting turn in the webs or entering them during turn forces to make a **DEX saving throw** to avoid being restrained.\nA creature restrained by the webs can use its action to make a **STR check** against your spell save DC to free itself.\nThe webs are flammable, 5-foot cube of webs exposed to fire burns in 1 round, dealing **2d4 fire damage** to any creature starting its turn in the fire.",
+        "at_higher_levels": "",
+        "has_long_description": true
+    }
+]

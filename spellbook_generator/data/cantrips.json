@@ -1,1 +1,202 @@
-[]
+[
+    {
+        "name": "guidance",
+        "school": "divination",
+        "level": 0,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "touch",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "1 minute",
+        "require_concentration": true,
+        "description": "You touch one willing creature. Once before the spell ends, the target can roll a **d4** and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "light",
+        "school": "evocation",
+        "level": 0,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "touch",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": false,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "firefly or fluo moss"
+        },
+        "duration": "1 hour",
+        "require_concentration": false,
+        "description": "You touch one object no larger than 10 feet in any dimension. The object sheds **bright light in a 20-foot radius and dim light for an additional 20 feet**.\nThe light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.\nIf you target an object held or worn by a hostile creature they must succeed on a **DEX saving throw** to avoid the spell.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "mage hand",
+        "school": "conjuration",
+        "level": 0,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "30",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "1 minute",
+        "require_concentration": false,
+        "description": "A spectral, floating hand appears at a point you choose within range. It lasts until you dismiss it as an action, it is ever more than 30 feet away from you or if you cast this spell again.\nYou can use your action make the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.\nThe hand can't attack, activate magic items, or carry more than 10 pounds.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "minor illusion",
+        "school": "illusion",
+        "level": 0,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "30",
+        "components": {
+            "has_verbal": false,
+            "has_somatic": false,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "a bit of fleece"
+        },
+        "duration": "1 minute",
+        "require_concentration": false,
+        "description": "Create sound or image of an object within range that lasts for the duration, until you dismiss as action or cast this spell again.\nSound volume can range from a whisper to a scream. The sound continues through the duration or it repeats at set intervals.\nImage must be no larger than a 5-foot cube. It has no sensory effects. Physical interaction reveals the illusion, things pass through it. Creature can use its action to examine the illusion and make **INT (Investigation)** check against your spell save DC.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "prestidigitation",
+        "school": "transumation",
+        "level": 0,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "10",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": "You create one of the following magical effects within range:\n - harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.\n - light or snuff out a candle, torch or campfire.\n - clean or soil an object up to 1 cubic foot.\n - chill, warm or flavor up to 1 cubic foot of nonliving material for 1 hour.\n - make a color, small mark or symbol on an object or surface for 1 hour.\n - nonmagical trinket or illusory image that fits in your hand and lasts until the end of your next turn.\nYou can have up to three of its non-instantaneous effects active at a time. you can dismiss them as an action."
+        },
+        "duration": "1 hour",
+        "require_concentration": false,
+        "description": "",
+        "at_higher_levels": "",
+        "has_long_description": true
+    },
+    {
+        "name": "toll the dead",
+        "school": "necromancy",
+        "level": 0,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "60",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "You point at one creature you can see within range and the sound of a dolorous bell fills the air around it for a moment. Target must succeed on a **WIS saving throw** or take **1d8 necrotic** damage. If target is missing any of its HP it instead takes **1d12 necrotic** damage.",
+        "at_higher_levels": "\n&nbsp;&nbsp;5th &nbsp;&nbsp;(**2d8/2d12**),\n&nbsp;&nbsp;11th (**3d8/3d12**),\n&nbsp;&nbsp;17th (**4d8/4d12**).",
+        "has_long_description": false
+    },
+    {
+        "name": "mending",
+        "school": "transumation",
+        "level": 0,
+        "casting_time": "1 minute",
+        "is_ritual": false,
+        "range": "touch",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "two lodestones"
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "Repair a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.\nYou can physically repair a magic item or construct, but cannot restore magic to such an object.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "message",
+        "school": "transumation",
+        "level": 0,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "120",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "piece of copper wire"
+        },
+        "duration": "1 round",
+        "require_concentration": false,
+        "description": "Point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.\nYou can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have to follow a straight line and can travel freely around corners or through openings.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "create bonfire",
+        "school": "conjuration",
+        "level": 0,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "60",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "1 minute",
+        "require_concentration": true,
+        "description": "Create 5-foot cube bonfire on ground you can see within range. Any creature in the bonfire's space when you cast the spell must succeed on a **DEX saving throw** or take **1d8 fire** damage. Creatures must also make the saving throw when they move into the bonfire's space for the first time on a turn or ends its turn there.\nIt ignites flammable objects that aren't being worn or carried.",
+        "at_higher_levels": "\n&nbsp;&nbsp;5th &nbsp;(**2d8**), 11th (**3d8**), 17th (**4d8**).",
+        "has_long_description": false
+    },
+    {
+        "name": "frostbite",
+        "school": "evocation",
+        "level": 0,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "60",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "You cause numbing frost to form on one creature that you can see within range. The target must make a **CON saving throw**. On a failed save, the target takes **1d6 cold** damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn.",
+        "at_higher_levels": "\n&nbsp;&nbsp;5th &nbsp;(**2d6**), 11th (**3d6**), 17th (**4d6**).",
+        "has_long_description": false
+    }
+]

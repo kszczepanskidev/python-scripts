@@ -1,1 +1,202 @@
-[]
+[
+    {
+        "name": "counterspell",
+        "school": "abjuration",
+        "level": 3,
+        "casting_time": "1 reaction",
+        "is_ritual": false,
+        "range": "60",
+        "components": {
+            "has_verbal": false,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "When a creature you can see within 60 feet of yourself casts a spell you can attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The **DC equals 10 + the spell's level**. On a success, the creature's spell fails and has no effect.",
+        "at_higher_levels": "The interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.",
+        "has_long_description": false
+    },
+    {
+        "name": "dispel magic",
+        "school": "abjuration",
+        "level": 3,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "120",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "Choose one creature, object or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The **DC equals 10 + the spell's level**. On a successful check the spell ends.",
+        "at_higher_levels": "You automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used.",
+        "has_long_description": false
+    },
+    {
+        "name": "fireball",
+        "school": "evocation",
+        "level": 3,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "ball of bat guano, sulfur"
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "Choose point within range and create an explosion of flame. Each creature in a **20ft radius sphere** centered on that point must make a **DEX saving throw**. A target takes **8d6 fire** damage on a failed save, or half as much damage on a successful one.\nThe fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.",
+        "at_higher_levels": "The damage increases by 1d6 for each spell slot level above 3rd.",
+        "has_long_description": false
+    },
+    {
+        "name": "fly",
+        "school": "transmutation",
+        "level": 3,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "touch",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "bird wing feather"
+        },
+        "duration": "10 minutes",
+        "require_concentration": true,
+        "description": "You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.",
+        "at_higher_levels": "You can target one additional creature for each spell slot level above 3rd.",
+        "has_long_description": false
+    },
+    {
+        "name": "haste",
+        "school": "transmutation",
+        "level": 3,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "30",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "shaving of licorice root"
+        },
+        "duration": "1 minute",
+        "require_concentration": true,
+        "description": "Choose a willing creature that you can see within range. Until the spell ends, the target's **speed is doubled, it gains a +2 AC, advantage on DEX saving throws and an additional action on each of its turns**. That action can be used only to take the __Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action__.\nWhen the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "hypnotic pattern",
+        "school": "illusion",
+        "level": 3,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "120",
+        "components": {
+            "has_verbal": false,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "glowing incense/fluo vial"
+        },
+        "duration": "1 minute",
+        "require_concentration": true,
+        "description": "You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a **WIS saving throw**. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.\nThe spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "tiny hut",
+        "school": "evocation",
+        "level": 3,
+        "casting_time": "1 minute",
+        "is_ritual": true,
+        "range": "self",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "small crystal bead"
+        },
+        "duration": "8 hours",
+        "require_concentration": false,
+        "description": "Create a 10ft radius immobile dome of force around you. The spell ends if you leave its area.\nNine creatures of up to Medium size can fit inside the dome with you. It fails if its area includes larger or more creatures. Anything within the dome when you cast it can move through it freely. Anything else is barred from passing through it. Spells and other magical effects can't extend through the dome or be cast through it.\nThe atmosphere inside the space is comfortable and dry. You can choose interior to be dimly lit or dark. The dome is opaque from the outside having any color you choose, and is transparent from the inside.",
+        "at_higher_levels": "",
+        "has_long_description": true
+    },
+    {
+        "name": "sending",
+        "school": "evocation",
+        "level": 3,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "unlimited",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "piece of copper wire"
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "You send a short message of up to 25 words to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you and can answer in a like manner. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.\nYou can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a **5%** chance that the message doesn't arrive.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "slow",
+        "school": "transmutation",
+        "level": 3,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "120",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "drop of molasses"
+        },
+        "duration": "1 minute",
+        "require_concentration": true,
+        "description": "You alter time around up to six creatures of your choice in a 40ft cube within range. Each target must succeed on a **WIS saving throw** or be affected by this spell for the duration.\nAffected target's **speed is halved, it takes a —2 to AC and DEX saving throws and it can't use reactions**. On its turn it can use either an action or a bonus action, not both. It can't make more than one melee or ranged attack during its turn.\nIf it attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11+ the spell doesn't take effect until the creature's next turn and the creature must use its action on that turn to complete the spell. The spell is wasted otherwise.\nA creature affected by this spell repeats saving throw at the end of each of its turns.",
+        "at_higher_levels": "",
+        "has_long_description": true
+    },
+    {
+        "name": "tiny servant",
+        "school": "transmutation",
+        "level": 3,
+        "casting_time": "1 minute",
+        "is_ritual": false,
+        "range": "touch",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "8 hours",
+        "require_concentration": false,
+        "description": "Touch tiny, loose, nonmagical object. It animates as creature with little arms and legs under your control until it drops to 0 HP.\nAs bonus action you mentally command it while within 120 feet of you (You can issue the same command to multiple objects at the same time). You decide actions the creature take and where it moves during its next turn. You can issue a simple, general command, such as to fetch a key or stand watch. With no commands the servant just defends itself against enemies. The servant continues to follow their order until its task is complete.\nWhen it drops to 0 HP it reverts to original form with any remaining damage carried over.",
+        "at_higher_levels": "animate two additional objects for each spell slot level above 3rd.",
+        "has_long_description": true
+    }
+]

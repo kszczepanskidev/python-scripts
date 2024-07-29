@@ -1,1 +1,342 @@
-[]
+[
+    {
+        "name": "alarm",
+        "school": "abjuration",
+        "level": 1,
+        "casting_time": "1 minute",
+        "is_ritual": true,
+        "range": "30",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "tiny bell and silver wire"
+        },
+        "duration": "8 hours",
+        "require_concentration": false,
+        "description": "Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an audible or mental alarm alerts you whenever a Tiny+ creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm.\nMental alarm alerts you with a ping in your mind if within 1 mile of the warded area. It awakens you if you're sleeping.\nAn audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "catapult",
+        "school": "transmutation",
+        "level": 1,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "60",
+        "components": {
+            "has_verbal": false,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "One object weighing 1-5 pounds that isn't being worn or carried flies in a straight line up to 90 feet in a direction you choose then falls to the ground, stopping early against a solid surface. If it would strike a creature, that creature must make a **DEX saving throw**. On a failed save it strikes the target and stops moving.The object and what it strikes each take **3d8 bludgeoning** damage.",
+        "at_higher_levels": "Maximum weight of objects increases by 5 pounds and the damage increases by 1d8 for each spell slot level above 1st.",
+        "has_long_description": false
+    },
+    {
+        "name": "comprehend languages",
+        "school": "divination",
+        "level": 1,
+        "casting_time": "1 action",
+        "is_ritual": true,
+        "range": "self",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "pinch of soot and salt"
+        },
+        "duration": "1 hour",
+        "require_concentration": false,
+        "description": "For the duration you understand literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\nThis spell doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "detect magic",
+        "school": "divination",
+        "level": 1,
+        "casting_time": "1 action",
+        "is_ritual": true,
+        "range": "self",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "10 minutes",
+        "require_concentration": true,
+        "description": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.\nThe spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "false life",
+        "school": "necromancy",
+        "level": 1,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "self",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "small amount of alcohol"
+        },
+        "duration": "1 hour",
+        "require_concentration": false,
+        "description": "Bolstering yourself with a necromantic facsimile of life, you gain **1d4 + 4 temporary hit points** for the duration.",
+        "at_higher_levels": "Gain 5 additional temporary hit points for each spell slot level above 1st.",
+        "has_long_description": false
+    },
+    {
+        "name": "feather fall",
+        "school": "transmutation",
+        "level": 1,
+        "casting_time": "1 reaction",
+        "is_ritual": false,
+        "range": "60",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": false,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "feather or piece of down"
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "Choose up to five falling creatures within range. Their rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it land on its feet taking no falling damage and the spell ends for that creature.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "find familiar",
+        "school": "conjuration",
+        "level": 1,
+        "casting_time": "1 hour",
+        "is_ritual": true,
+        "range": "10",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": true,
+            "description": "10gp coal and incense"
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "You gain the service of a familiar, a spirit with animal form appears in unoccupied space within range. It assumes statistics of chosen form but its type is celestial, fey or fiend.\nIt acts independently of you, but obeys your orders. It rolls its initiative, but can't Attack.\nWhen it drops to 0 HP it disappears until you cast this spell again. As an Action it can be temporarily dismissed to pocket dimension. As an action you can make it reappear in unoccupied space within 30ft.\nWhile within 100 ft you can telepatically communicate with it and use Action to perceive through its sight and hearing instead of yours (deaf + blind) until the start of your next turn.",
+        "at_higher_levels": "",
+        "has_long_description": true
+    },
+    {
+        "name": "floating disk",
+        "school": "enchantment",
+        "level": 1,
+        "casting_time": "1 action",
+        "is_ritual": true,
+        "range": "30",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "drop of mercury"
+        },
+        "duration": "1 hour",
+        "require_concentration": false,
+        "description": "Create circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space you can see within range. It can hold up to 500 pounds, if more weight is placed on it, the spell ends and everything on the disk falls to the ground.\nIt's immobile while within 20 feet of you. It will follow you, so that it remains within 20 feet of you. It can move across uneven terrain (stairs, slopes and the like), but can't cross an elevation change of 10+ feet. If you move more than 100 feet from it the spell ends.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "fog cloud",
+        "school": "conjuration",
+        "level": 1,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "120",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "1 hour",
+        "require_concentration": true,
+        "description": "Create a **20-foot-radius sphere** of fog centered on a point within range. The sphere spreads around corners and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.",
+        "at_higher_levels": "Radius of the fog increases by 20 feet for each slot level above 1st.",
+        "has_long_description": false
+    },
+    {
+        "name": "healing word",
+        "school": "evocation",
+        "level": 1,
+        "casting_time": "1 bonus action",
+        "is_ritual": false,
+        "range": "60",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": false,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "A creature of your choice that you can see within range regains hit points equal to **1d4 + spellcasting ability modifier**. This spell has no effect on undead or constructs.",
+        "at_higher_levels": "The healing increases by **1d4 for each spell slot level above 1st**.",
+        "has_long_description": false
+    },
+    {
+        "name": "hideous laughter",
+        "school": "enchantment",
+        "level": 1,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "30",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "tiny tarts, feather"
+        },
+        "duration": "1 minute",
+        "require_concentration": true,
+        "description": "Creature of your choice you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a **WIS saving throw** or fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn't affected.\nAt the end of each of its turns and when it takes damage, the target can repeat saving throw. The target has advantage on the saving throw if it's triggered by damage.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "identify",
+        "school": "divination",
+        "level": 1,
+        "casting_time": "1 minute",
+        "is_ritual": true,
+        "range": "touch",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "100gp pearl, owl feather"
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.\nIf you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "magic missile",
+        "school": "evocation",
+        "level": 1,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "120",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals **1d4 + 1 force** damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.",
+        "at_higher_levels": "One more dart for each spell slot level above 1st.",
+        "has_long_description": false
+    },
+    {
+        "name": "shield",
+        "school": "abjuration",
+        "level": 1,
+        "casting_time": "1 reaction",
+        "is_ritual": false,
+        "range": "self",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "1 round",
+        "require_concentration": false,
+        "description": "When you are hit by an attack or targeted by the magic missile spell you can react to create an invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a ***+5 bonus to AC**, including against the triggering attack, and you take no damage from magic missile.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "silent image",
+        "school": "illusion",
+        "level": 1,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "60",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "bit of fleece"
+        },
+        "duration": "10 minutes",
+        "require_concentration": true,
+        "description": "Create the image of an object, creature or other visible phenomenon no larger than a 15-foot cube. It appears at a spot within range and lasts for the duration. It isn't accompanied by sound, smell, or other sensory effects.\nYou can use action to move it to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural.\nPhysical interaction reveals the illusion, as things can pass through it. A creature can use action to examine the image to reveal an illusion with **INT (Investigation)** check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.",
+        "at_higher_levels": "",
+        "has_long_description": true
+    },
+    {
+        "name": "silvery barbs",
+        "school": "enchantment",
+        "level": 1,
+        "casting_time": "1 reaction",
+        "is_ritual": false,
+        "range": "60",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": false,
+            "has_material": false,
+            "consumes_material": false,
+            "description": ""
+        },
+        "duration": "instantaneous",
+        "require_concentration": false,
+        "description": "When a creature you see within 60 ft of yourself succeeds on an attack roll, an ability check or a saving throw you can use your reaction to magically distract them. The triggering creature must reroll the d20 and use the lower roll.\nYou can then choose a different creature you can see within range (you can choose yourself). The chosen creature has advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can be empowered by only one use of this spell at a time.",
+        "at_higher_levels": "",
+        "has_long_description": false
+    },
+    {
+        "name": "sleep",
+        "school": "enchantment",
+        "level": 1,
+        "casting_time": "1 action",
+        "is_ritual": false,
+        "range": "90",
+        "components": {
+            "has_verbal": true,
+            "has_somatic": true,
+            "has_material": true,
+            "consumes_material": false,
+            "description": "fine sand or rose petal"
+        },
+        "duration": "1 minute",
+        "require_concentration": false,
+        "description": "Creatures within **20 feet** of a point within range are affected in ascending order of their current HP (ignoring unconscious creatures). Roll **5d8**, starting with creature that has the lowest current HP substarct it from rolled value, creature is affected if it's current HP is equal or lower than remaining total. Affected creature falls uncounscious until spell ends, it takes damage or someone uses action to wake them up. Undead and charm immune creatures can't be affected.",
+        "at_higher_levels": "Roll an additional **2d8** for each slot level above 1st.",
+        "has_long_description": true
+    }
+]
