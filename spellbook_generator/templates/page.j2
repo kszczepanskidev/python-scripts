@@ -20,7 +20,7 @@
             <p class="durationText">{{ spell.duration_string()|e }}{% if spell.require_concentration %}<br><span class="additionalText">{{ spell.concentration_time_string()|e }}</span>{% endif %}</p>
         </div>
         <div class="descriptionDiv {% if spell.html_add_divshort() %}descriptionDivShort{% endif %} {% if spell.html_add_descriptionLong() %}descriptionTextLong{% endif %}">
-            <p class="descriptionText">{{ spell.formatted_description() }}{% if spell.has_level_scaling() %}<br><br><i>At Higher Levels: {{ spell.at_higher_levels|e }}</i>{% endif %}</p>
+            <p class="descriptionText">{{ spell.formatted_description() }}{% if spell.has_level_scaling() %}<br><br><i>At Higher Levels: {{ spell.formatted_scaling() }}</i>{% endif %}</p>
         </div>
         <p class="spellslot">{{ spell.school_slot_string()|e }}</p>
     </div>

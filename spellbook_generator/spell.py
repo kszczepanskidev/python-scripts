@@ -78,16 +78,23 @@ class Spell:
 
     # Get spell description with HTML formatters.
     # Eg. replaces "**text**" with "<b>text</b>"
-    def formatted_description(self):
-        formatted_description = self.description
+    def _formatted_text(self, text):
+        formatted_text = text
         regexes = [(r'\*\*(.*?)\*\*', '**', 'b'), (r'__(.*?)__', '__', 'u')]
         for regex, md_tag, html_tag in regexes:
-            for find in findall(regex, formatted_description):
-                formatted_description = formatted_description.replace(f'{md_tag}{find}{md_tag}', f'<{html_tag}>{find}</{html_tag}>')
+            for find in findall(regex, formatted_text):
+                formatted_text = formatted_text.replace(f'{md_tag}{find}{md_tag}', f'<{html_tag}>{find}</{html_tag}>')
 
-        formatted_description = formatted_description.replace('\n', '<br>')
+        formatted_text = formatted_text.replace('\n', '<br>')
+        return formatted_text
 
-        return formatted_description
+    # Get spell description with HTML formatters.
+    def formatted_description(self):
+        return self._formatted_text(self.description)
+
+    # Get spell scaling with HTML formatters.
+    def formatted_scaling(self):
+        return self._formatted_text(self.at_higher_levels)
 
     def has_material_components_description(self):
         return self.material_components_string() != ''
