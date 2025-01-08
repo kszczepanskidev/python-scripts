@@ -40,3 +40,5 @@ yt_download/
 geckodriver.log
 spellbook/
 spellbook_generator/data/
+
+yt_downloader/src/
