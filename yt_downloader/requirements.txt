@@ -1,2 +1,2 @@
 pydub==0.25.1
-pytube @ git+https://github.com/kszczepanskidev/pytube.git@master
+yt-dlp==2025.5.22
